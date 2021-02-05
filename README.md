@@ -4,6 +4,7 @@ It's a repository which contains SOTA Algorithms list for semantic understanding
 ## Dataset:
 1. KITTI dataset for semantic segmentation: http://www.semantic-kitti.org/
 2. KITTI dataset release video: https://www.youtube.com/watch?v=3qNOXvkpK4I
+3. KITTI dataset for 3D onject detection: http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d
 
 ## Dataset Labelling Tool:
 1. https://github.com/jbehley/point_labeler
