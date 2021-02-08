@@ -21,6 +21,7 @@ It's a repository which contains SOTA Algorithms list for semantic understanding
 6. https://github.com/yanx27/Pointnet_Pointnet2_pytorch
 7. https://github.com/qianguih/voxelnet
 8. https://github.com/open-mmlab/OpenPCDet
+9. https://github.com/AhmedARadwan/Super-Fast-Accurate-3D-Object-Detection
 ## ROS Implementation:
 1. http://wiki.ros.org/semantic_point_annotator
 2. https://github.com/edward0im/voxelnet_ros
