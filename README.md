@@ -1,4 +1,4 @@
-# Semantic-Awareness-&-3D-Detection-using-Lidar-Point-clouds
+# Semantic-Awareness-&-3D-Detection-using-Lidar-Point-Clouds
 It's a repository which contains SOTA Algorithms list for semantic understanding of the environment using Lidar Point Clouds.
 
 ## Dataset:
