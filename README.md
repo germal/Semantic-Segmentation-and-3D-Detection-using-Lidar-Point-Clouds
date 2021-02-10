@@ -7,7 +7,7 @@ It's a repository which contains SOTA Algorithms list for semantic understanding
 3. KITTI dataset for 3D object detection: http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d
 
 ## Dataset Conversion Tool:
-The dataset that we commonly face is a pointcloud topic inside a rosbag file. We can convert the pointcloud topic to a .pcd file and then to a .bin (kitti format) file for labeling the pointclouds.
+The dataset that we commonly face is a pointcloud topic inside a rosbag file. We can convert the pointcloud topic to a .pcd file and then to a .bin (kitti format) file for importing inside labeler tools in order to label the pointclouds.
 1. https://github.com/leofansq/Tools_RosBag2KITTI
 
 ## Dataset Labeling Tool:
