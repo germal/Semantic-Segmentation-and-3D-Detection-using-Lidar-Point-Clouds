@@ -4,14 +4,23 @@ It's a repository which contains SOTA Algorithms list for semantic understanding
 ## Dataset:
 1. KITTI dataset for semantic segmentation: http://www.semantic-kitti.org/
 2. KITTI dataset release video: https://www.youtube.com/watch?v=3qNOXvkpK4I
-3. KITTI dataset for 3D object detection: http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d
+3. KITTI dataset for 3D object Detection: http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d
+4. Waymo dataset for 3D object Detection: https://waymo.com/open/download/
 
-## Dataset Conversion Tool:
-The dataset that we commonly face is a pointcloud topic inside a rosbag file. We can convert the pointcloud topic to a .pcd file and then to a .bin (kitti format) file for importing inside labeler tools in order to label the pointclouds.
+## Competition Leader Board (See which approach is on Top):
+1. Waymo 3D Object Detection: https://waymo.com/open/challenges/3d-detection/
+2. KITTI 3D Object Detection: http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d
+
+## Instructions during Labeling (Good Guideline to Read):
+1. https://github.com/waymo-research/waymo-open-dataset/blob/master/docs/labeling_specifications.md
+
+## Dataset Conversion Tool (For Labeling):
+The dataset that we commonly face is a pointcloud topic inside a rosbag file. We can convert the pointcloud topic to a .pcd file and then to a .bin (kitti format) file for importing inside labeler tools during pointcloud labeling.
 1. https://github.com/leofansq/Tools_RosBag2KITTI
 
-If one wants to do otherwise, I mean, wants to convert kitti dataset to rosbag format, you can find the way here.
+If one wants to do otherwise, I mean, wants to convert kitti dataset to rosbag format, he can find the way here.
 1. https://github.com/tomas789/kitti2bag
+2. https://github.com/ethz-asl/kitti_to_rosbag
 
 ## Dataset Labeling Tool:
 1. https://github.com/jbehley/point_labeler
