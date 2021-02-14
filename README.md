@@ -1,4 +1,4 @@
-# Semantic-Awareness-&-3D-Detection-using-Lidar-Point-Clouds
+# Semantic-Segmentation-&-3D-Detection-using-Lidar-Point-Clouds
 It's a repository which contains SOTA Algorithms list for semantic understanding of the environment using Lidar Point Clouds.
 
 ## Dataset:
@@ -22,6 +22,9 @@ If one wants to do otherwise, I mean, wants to convert kitti dataset to rosbag f
 1. https://github.com/tomas789/kitti2bag
 2. https://github.com/ethz-asl/kitti_to_rosbag
 
+## Good Repos to Look into regarding lidar perception:
+1. https://github.com/LidarPerception
+
 ## Dataset Labeling Tool:
 1. https://github.com/jbehley/point_labeler
 2. https://github.com/jbehley/voxelizer
@@ -41,7 +44,8 @@ If one wants to do otherwise, I mean, wants to convert kitti dataset to rosbag f
 9. https://github.com/AhmedARadwan/Super-Fast-Accurate-3D-Object-Detection
 ## ROS Implementation:
 1. http://wiki.ros.org/semantic_point_annotator
-2. https://github.com/edward0im/voxelnet_ros
-3. https://github.com/AbangLZU/VoxelNetRos
-4. https://github.com/AhmedARadwan/Super-Fast-Accurate-3D-Object-Detection/tree/master/ros/src/super_fast_object_detection
-5. https://github.com/YonoHub/waymo_ros
+2. https://github.com/LidarPerception/segmenters_lib
+3. https://github.com/edward0im/voxelnet_ros
+4. https://github.com/AbangLZU/VoxelNetRos
+5. https://github.com/AhmedARadwan/Super-Fast-Accurate-3D-Object-Detection/tree/master/ros/src/super_fast_object_detection
+6. https://github.com/YonoHub/waymo_ros
