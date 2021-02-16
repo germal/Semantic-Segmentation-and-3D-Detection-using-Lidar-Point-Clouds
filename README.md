@@ -3,7 +3,7 @@ It's a repository which contains SOTA Algorithms list for semantic understanding
 
 ## Dataset:
 1. KITTI dataset for semantic segmentation: http://www.semantic-kitti.org/
-2. KITTI dataset release video: https://www.youtube.com/watch?v=3qNOXvkpK4I
+2. KITTI dataset for semantic segmentation release video: https://www.youtube.com/watch?v=3qNOXvkpK4I
 3. KITTI dataset for 3D object Detection: http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d
 4. Waymo dataset for 3D object Detection: https://waymo.com/open/download/
 
