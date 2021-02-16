@@ -22,8 +22,9 @@ If one wants to do otherwise, I mean, wants to convert kitti dataset to rosbag f
 1. https://github.com/tomas789/kitti2bag
 2. https://github.com/ethz-asl/kitti_to_rosbag
 
-## Good Repos to Look into regarding lidar perception:
+## Good Repos/Videos to Look into regarding lidar perception:
 1. https://github.com/LidarPerception
+2. https://www.youtube.com/watch?v=zOaHuxMem5M
 
 ## Dataset Labeling Tool:
 1. https://github.com/jbehley/point_labeler
