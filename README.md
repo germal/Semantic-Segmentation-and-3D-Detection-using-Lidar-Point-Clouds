@@ -17,6 +17,16 @@ It's a repository which contains SOTA Algorithms list for semantic understanding
 ## Dataset Conversion Tool (For Labeling):
 The dataset that we commonly face is a pointcloud topic inside a rosbag file. We can convert the pointcloud topic to a .pcd file and then to a .bin (kitti format) file for importing inside labeler tools during pointcloud labeling.
 1. https://github.com/leofansq/Tools_RosBag2KITTI
+We have to use the below repo to generate a 'poses.txt' file which is necessary during importing pointcloud inside 'pointlabeler'.
+2. https://github.com/jbehley/SuMa
+We also need a calibration file named 'calib.txt' which is necessary during importing pointcloud inside 'pointlabeler'. As a practise, we can use:
+```
+P0: 1 0 0 0 0 1 0 0 0 0 1 0
+P1: 1 0 0 0 0 1 0 0 0 0 1 0
+P2: 1 0 0 0 0 1 0 0 0 0 1 0
+P3: 1 0 0 0 0 1 0 0 0 0 1 0
+Tr: 1 0 0 0 0 1 0 0 0 0 1 0
+```
 
 If one wants to do otherwise, I mean, wants to convert kitti dataset to rosbag format, he can find the way here.
 1. https://github.com/tomas789/kitti2bag
