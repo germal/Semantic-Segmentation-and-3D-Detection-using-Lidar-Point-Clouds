@@ -4,12 +4,15 @@ It's a repository which contains SOTA Algorithms list for semantic understanding
 ## Dataset:
 1. KITTI dataset for semantic segmentation: http://www.semantic-kitti.org/
 2. KITTI dataset for semantic segmentation release video: https://www.youtube.com/watch?v=3qNOXvkpK4I
-3. KITTI dataset for 3D object Detection: http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d
-4. Waymo dataset for 3D object Detection: https://waymo.com/open/download/
+3. KITTI dataset for 3D object detection: http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d
+4. Waymo dataset for 3D object detection: https://waymo.com/open/download/
+5. NuScenes dataset for 3D object detection: https://www.nuscenes.org/download
+6. NuScenes dataset for 3D object detection release video: https://www.youtube.com/watch?v=C6KbbndonGg
 
 ## Competition Leader Board (See which approach is on Top):
 1. Waymo 3D Object Detection: https://waymo.com/open/challenges/3d-detection/
 2. KITTI 3D Object Detection: http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d
+3. NuScenes 3D Object Detection: https://www.nuscenes.org/lidar-segmentation?externalData=all&mapData=all&modalities=Any
 
 ## Instructions during Labeling (Good Guideline to Read):
 1. https://github.com/waymo-research/waymo-open-dataset/blob/master/docs/labeling_specifications.md
@@ -18,8 +21,15 @@ It's a repository which contains SOTA Algorithms list for semantic understanding
 The dataset that we commonly face is a pointcloud topic inside a rosbag file. We can convert the pointcloud topic to a .pcd file and then to a .bin (kitti format) file for importing inside labeler tools during pointcloud labeling.
 1. https://github.com/leofansq/Tools_RosBag2KITTI
 
-We have to use the below repo to generate a 'poses.txt' file which is necessary during importing pointcloud inside 'pointlabeler'.
+We have to use the below repo to generate a 'poses.txt' file which is necessary during importing pointcloud inside 'pointlabeler'. 
 2. https://github.com/jbehley/SuMa
+
+We can also use ```1 0 0 0 0 1 0 0 0 0 1 0``` for each scan inside 'poses.txt' file if we couldn't generate the poses mentioned above. For example, if we have 3 scans (3 .bin file inside 'velodyne' folder) of a dataset, the 'poses.txt' file should look like this:
+```
+1 0 0 0 0 1 0 0 0 0 1 0
+1 0 0 0 0 1 0 0 0 0 1 0
+1 0 0 0 0 1 0 0 0 0 1 0
+```
 
 We also need a calibration file named 'calib.txt' which is necessary during importing pointcloud inside 'pointlabeler'. As a start, we can use:
 ```
@@ -37,6 +47,7 @@ If one wants to do otherwise, I mean, wants to convert kitti dataset to rosbag f
 ## Good Repos/Videos to Look into regarding lidar perception:
 1. https://github.com/LidarPerception
 2. https://www.youtube.com/watch?v=zOaHuxMem5M
+3. 
 
 ## Dataset Labeling Tool:
 1. https://github.com/jbehley/point_labeler
