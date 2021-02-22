@@ -6,8 +6,13 @@ It's a repository which contains SOTA Algorithms list for semantic understanding
 2. KITTI dataset for semantic segmentation release video: https://www.youtube.com/watch?v=3qNOXvkpK4I
 3. KITTI dataset for 3D object detection: http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d
 4. Waymo dataset for 3D object detection: https://waymo.com/open/download/
-5. NuScenes dataset for 3D object detection: https://www.nuscenes.org/download
-6. NuScenes dataset for 3D object detection release video: https://www.youtube.com/watch?v=C6KbbndonGg
+5. Waymo dataset for 3D object detection release video: https://www.youtube.com/watch?v=tuhnwkUeMNo
+6. NuScenes dataset for 3D object detection: https://www.nuscenes.org/download
+7. NuScenes dataset for 3D object detection release video: https://www.youtube.com/watch?v=C6KbbndonGg
+
+<p align="center">
+    <img src="assets/dataset_image.png", width="800">
+</p>
 
 ## Competition Leader Board (See which approach is on Top):
 1. Waymo 3D Object Detection: https://waymo.com/open/challenges/3d-detection/
