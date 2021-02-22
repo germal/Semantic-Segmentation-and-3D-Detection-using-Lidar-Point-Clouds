@@ -22,6 +22,7 @@ The dataset that we commonly face is a pointcloud topic inside a rosbag file. We
 1. https://github.com/leofansq/Tools_RosBag2KITTI
 
 We have to use the below repo to generate a 'poses.txt' file which is necessary during importing pointcloud inside 'pointlabeler'. 
+
 2. https://github.com/jbehley/SuMa
 
 We can also use ```1 0 0 0 0 1 0 0 0 0 1 0``` for each scan inside 'poses.txt' file if we couldn't generate the poses mentioned above. For example, if we have 3 scans (3 .bin file inside 'velodyne' folder) of a dataset, the 'poses.txt' file should look like this:
@@ -47,7 +48,7 @@ If one wants to do otherwise, I mean, wants to convert kitti dataset to rosbag f
 ## Good Repos/Videos to Look into regarding lidar perception:
 1. https://github.com/LidarPerception
 2. https://www.youtube.com/watch?v=zOaHuxMem5M
-3. 
+3. https://bobwang-robotics.medium.com/%E8%87%AA%E9%A7%95%E8%BB%8A%E9%96%8B%E6%94%BE%E6%95%B8%E6%93%9A%E5%BA%AB-ffe7a5975c96
 
 ## Dataset Labeling Tool:
 1. https://github.com/jbehley/point_labeler
