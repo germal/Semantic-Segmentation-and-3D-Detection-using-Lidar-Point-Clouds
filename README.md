@@ -1,29 +1,43 @@
 # Semantic-Segmentation-&-3D-Detection-using-Lidar-Point-Clouds
 It's a repository which contains SOTA Algorithms list for semantic understanding of the environment using Lidar Point Clouds.
 
-## Dataset for Semantic Segmentation:
-1. KITTI dataset for semantic segmentation: http://www.semantic-kitti.org/
-2. KITTI dataset for semantic segmentation release video: https://www.youtube.com/watch?v=3qNOXvkpK4I
-3. RELLIS 3D dataset for semantic segmentation: https://unmannedlab.github.io/research/RELLIS-3D
-4. RELLIS 3D dataset for semantic segmentation release video: https://www.youtube.com/watch?v=DzWc9qILLAw
+## Dataset for 3D Detection & Semantic Segmentation:
+1. KITTI dataset for semantic segmentation
 
-## Dataset for 3D Detection:
-1. KITTI dataset for 3D object detection: http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d
-2. Waymo dataset for 3D object detection: https://waymo.com/open/download/
-3. Waymo dataset for 3D object detection release video: https://www.youtube.com/watch?v=tuhnwkUeMNo
-4. NuScenes dataset for 3D object detection: https://www.nuscenes.org/download
-5. NuScenes dataset for 3D object detection release video: https://www.youtube.com/watch?v=C6KbbndonGg
+   a) Dataset: http://www.semantic-kitti.org/dataset.html#download
+   
+   b) Video: https://www.youtube.com/watch?v=3qNOXvkpK4I
+   
+2. RELLIS 3D dataset for semantic segmentation
+
+   a) Dataset: https://unmannedlab.github.io/research/RELLIS-3D
+   
+   b) Video: https://www.youtube.com/watch?v=DzWc9qILLAw
+   
+3. KITTI dataset for 3D object detection: http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d
+
+4. Waymo dataset for 3D object detection & Semantic Segmentation
+
+   a) Dataset: https://waymo.com/open/download/
+   
+   b) Video: https://www.youtube.com/watch?v=tuhnwkUeMNo
+   
+5. NuScenes dataset for 3D object detection & Semantic Segmentation
+
+   a) Dataset: https://www.nuscenes.org/download
+   
+   b) Video: https://www.youtube.com/watch?v=C6KbbndonGg
 
 <p align="center">
     <img src="assets/dataset_image.png", width="800">
 </p>
 
-## Competition Leader Board for Semantic Segmentation (See which approach is on Top):
+## Competition Leader Board for Semantic Segmentation :
 1. Waymo 3D Semantic Segmentation: https://waymo.com/open/challenges/3d-detection/
-2. KITTI 3D Semantic Segmentation: http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d
+2. KITTI 3D Semantic Segmentation: http://www.semantic-kitti.org/tasks.html#semseg
 3. NuScenes 3D Semantic Segmentation: https://www.nuscenes.org/lidar-segmentation?externalData=no&mapData=no&modalities=Lidar
 
-## Competition Leader Board for 3D Detection (See which approach is on Top):
+## Competition Leader Board for 3D Detection :
 1. Waymo 3D Object Detection: https://waymo.com/open/challenges/3d-detection/
 2. KITTI 3D Object Detection: http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d
 3. NuScenes 3D Object Detection: https://www.nuscenes.org/object-detection?externalData=all&mapData=all&modalities=Lidar
