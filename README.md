@@ -33,9 +33,8 @@ It's a repository which contains SOTA Algorithms list for semantic understanding
 </p>
 
 ## Competition Leader Board for Semantic Segmentation :
-1. Waymo 3D Semantic Segmentation: https://waymo.com/open/challenges/3d-detection/
-2. KITTI 3D Semantic Segmentation: http://www.semantic-kitti.org/tasks.html#semseg
-3. NuScenes 3D Semantic Segmentation: https://www.nuscenes.org/lidar-segmentation?externalData=no&mapData=no&modalities=Lidar
+1. KITTI 3D Semantic Segmentation: http://www.semantic-kitti.org/tasks.html#semseg
+2. NuScenes 3D Semantic Segmentation: https://www.nuscenes.org/lidar-segmentation?externalData=no&mapData=no&modalities=Lidar
 
 ## Competition Leader Board for 3D Detection :
 1. Waymo 3D Object Detection: https://waymo.com/open/challenges/3d-detection/
