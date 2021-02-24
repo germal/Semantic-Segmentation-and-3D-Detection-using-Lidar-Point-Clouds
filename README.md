@@ -45,6 +45,17 @@ It's a repository which contains SOTA Algorithms list for semantic understanding
 1. https://github.com/waymo-research/waymo-open-dataset/blob/master/docs/labeling_specifications.md
 
 ## Dataset Conversion Tool (For Labeling):
+We need to convert the pointcloud and image dataset from rosbag files to KITTI format. The directory structure should look like this:
+
+```
+point cloud folder
+├── velodyne/             -- directory containing ".bin" files with Velodyne point clouds.   
+├── labels/   [optional]  -- label directory, will be generated if not present.  
+├── image_2/  [optional]  -- directory containing ".png" files from the color   camera.  
+├── calib.txt             -- calibration of velodyne vs. camera. needed for projection of point cloud into camera.  
+└── poses.txt             -- file containing the poses of every scan.
+```
+
 The dataset that we commonly face is a pointcloud topic inside a rosbag file. We can convert the pointcloud topic to a .pcd file and then to a .bin (kitti format) file for importing inside labeler tools during pointcloud labeling.
 1. https://github.com/leofansq/Tools_RosBag2KITTI
 
@@ -52,7 +63,7 @@ We have to use the below repo to generate a 'poses.txt' file which is necessary 
 
 2. https://github.com/jbehley/SuMa
 
-We can also use ```1 0 0 0 0 1 0 0 0 0 1 0``` for each scan inside 'poses.txt' file if we couldn't generate the poses mentioned above. For example, if we have 3 scans (3 .bin file inside 'velodyne' folder) of a dataset, the 'poses.txt' file should look like this:
+You can also use ```1 0 0 0 0 1 0 0 0 0 1 0``` for each scan inside 'poses.txt' file if we couldn't generate the poses mentioned above (If we follow this method, every scan will be super position on each other at the starting point). For example, if we have 3 scans (3 .bin file inside 'velodyne' folder) of a dataset, the 'poses.txt' file should look like this:
 ```
 1 0 0 0 0 1 0 0 0 0 1 0
 1 0 0 0 0 1 0 0 0 0 1 0
@@ -72,10 +83,12 @@ If one wants to do otherwise, I mean, wants to convert kitti dataset to rosbag f
 1. https://github.com/tomas789/kitti2bag
 2. https://github.com/ethz-asl/kitti_to_rosbag
 
-## Good Repos/Videos to Look into regarding lidar perception:
+## Good Repos/Videos/Websites to Look into regarding lidar perception:
 1. https://github.com/LidarPerception
 2. https://www.youtube.com/watch?v=zOaHuxMem5M
-3. https://bobwang-robotics.medium.com/%E8%87%AA%E9%A7%95%E8%BB%8A%E9%96%8B%E6%94%BE%E6%95%B8%E6%93%9A%E5%BA%AB-ffe7a5975c96
+3. https://www.youtube.com/watch?v=mt3zlaELI1s
+4. https://www.youtube.com/watch?v=MMlvfLAqhv8
+5. https://bobwang-robotics.medium.com/%E8%87%AA%E9%A7%95%E8%BB%8A%E9%96%8B%E6%94%BE%E6%95%B8%E6%93%9A%E5%BA%AB-ffe7a5975c96
 
 ## Dataset Labeling Tool:
 1. https://github.com/jbehley/point_labeler
