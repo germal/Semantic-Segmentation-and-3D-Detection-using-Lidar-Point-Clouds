@@ -44,7 +44,7 @@ It's a repository which contains SOTA Algorithms list for semantic understanding
 ## Instructions during Labeling (Good Guideline to Read):
 1. https://github.com/waymo-research/waymo-open-dataset/blob/master/docs/labeling_specifications.md
 
-## Dataset Conversion Tool (For Labeling):
+## Dataset Labeling:
 We need to convert the pointcloud and image dataset from rosbag files to KITTI format. The directory structure should look like this:
 
 ```
